@@ -13,7 +13,7 @@ firstPublicationDate: "2019-02-20"
 spec:
   containers:
   - name: codewind-che-sidecar
-    image: johncollier/codewind-sidecar
+    image: johncollier/sidecar-centos
     volumes:
       - mountPath: "/projects"
         name: projects
