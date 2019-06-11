@@ -1,0 +1,17 @@
+---
+apiVersion: 1.0.0
+metadata:
+  name: my-plugin-env
+projects:
+  - name: microproj
+    source:
+      type: git
+      location: 'https://github.com/rajivnathan/microproj.git'
+  - name: nodeTemplate
+    source:
+      type: git
+      location: 'https://github.com/microclimate-dev2ops/nodeExpressTemplate'
+components:
+  - alias: theia-ide
+    type: cheEditor
+    id: eclipse/che-theia/next
