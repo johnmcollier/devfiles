@@ -41,9 +41,9 @@ components:
   - alias: exec-plugin
     type: chePlugin
     id: eclipse/che-machine-exec-plugin/0.0.1
-  - alias: codewind-plugin
+  - alias: codewind-sidecar
     type: chePlugin
-    id: https://raw.githubusercontent.com/johnmcollier/codewind-che-plugin/PublicPlugins/plugins/codewind/codewind-sidecar/0.0.1/meta.yaml
+    id: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-sidecar/0.0.1/meta.yaml
   - alias: codewind-theia
     type: chePlugin
-    id: https://raw.githubusercontent.com/johnmcollier/codewind-che-plugin/PublicPlugins/plugins/codewind/codewind-theia/0.0.1/meta.yaml
+    id: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-theia/0.0.1/meta.yaml
