@@ -46,4 +46,4 @@ components:
     id: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-sidecar/0.0.1/meta.yaml
   - alias: codewind-theia
     type: chePlugin
-    id: http://nix.rtp.raleigh.ibm.com/plugins/codewind/codewind-plugin/0.2.0/meta.yaml
+    id: https://raw.githubusercontent.com/eclipse/codewind-che-plugin/586239267fba6fca2a68d35a537c65487a7b3043/plugins/codewind/codewind-theia/0.0.1/meta.yaml
