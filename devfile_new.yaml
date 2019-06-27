@@ -37,7 +37,7 @@ projects:
 components:
   - alias: theia-ide
     type: cheEditor
-    id: eclipse/che-theia/next
+    id: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/che-theia/meta.yaml
   - alias: exec-plugin
     type: chePlugin
     id: eclipse/che-machine-exec-plugin/0.0.1
