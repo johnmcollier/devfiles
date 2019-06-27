@@ -48,7 +48,7 @@ spec:
         discoverable: false
   containers:
    - name: theia-ide
-     image: timetchells/che-theia:v0.7.2
+     image: timetchells/che-theia:865c4
      env:
          - name: THEIA_PLUGINS
            value: local-dir:///plugins
