@@ -7,7 +7,7 @@ projects:
     source:
       type: git
       location: 'https://github.com/rajivnathan/microproj.git'
-  - name: nodeTemplate
+  - name: nodeExpressTemplate
     source:
       type: git
       location: 'https://github.com/microclimate-dev2ops/nodeExpressTemplate'
