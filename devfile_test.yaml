@@ -1,6 +1,7 @@
 ---
-specVersion: 0.0.1
-name: my-plugin-env
+apiVersion: 1.0.0
+metadata:
+  name: codewind-che
 projects:
   - name: microproj
     source:
