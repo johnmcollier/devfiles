@@ -9,22 +9,23 @@
 #     IBM Corporation - initial API and implementation
 ################################################################################
 
-id: codewind-plugin
+id: codewind-sidecar
 apiVersion: v2
-version: 0.0.1
+version: latest
 type: Che Plugin
 name: CodewindPlugin
 title: CodewindPlugin
 description: Enables iterative development and deployment in Che
-icon: https://raw.githubusercontent.com/IBM/charts/master/logo/microclimate-logo.png
+icon: https://raw.githubusercontent.com/eclipse/codewind-vscode/master/dev/res/img/codewind.png
 publisher: IBM
 repository: https://github.com/eclipse/codewind-che-plugin
 category: Other
 firstPublicationDate: "2019-05-30"
+latestUpdateDate: "2019-06-26"
 spec:
   containers:
   - name: codewind-che-sidecar
-    image: johncollier/codewind-che-sidecar
+    image: johncollier/codewind-che-sidecar:latest
     volumes:
       - mountPath: "/projects"
         name: projects
