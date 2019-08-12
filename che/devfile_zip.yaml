@@ -6,7 +6,7 @@ projects:
   - name: microproj
     source:
       type: zip
-      location: 'https://github.com/rajivnathan/microproj.git'
+      location: 'https://raw.githubusercontent.com/johnmcollier/codewind-appsody-templates/master/codewind-appsody-java-microprofile-master.zip'
 components:
   - alias: theia-ide
     type: cheEditor
