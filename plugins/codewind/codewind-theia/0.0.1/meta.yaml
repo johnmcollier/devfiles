@@ -24,4 +24,4 @@ firstPublicationDate: "2019-05-30"
 latestUpdateDate: "2019-05-30"
 spec:
   extensions:
-    - https://raw.githubusercontent.com/johnmcollier/devfiles/master/theia/codewind-0.2.0.vsix
+    - http://time-nix.rtp.raleigh.ibm.com/plugins/codewind/codewind-theia/latest/codewind-perfdb-0.3.0.vsix
