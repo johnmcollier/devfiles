@@ -25,7 +25,7 @@ latestUpdateDate: "2019-06-26"
 spec:
   containers:
   - name: codewind-che-sidecar
-    image: johncollier/codewind-che-sidecar:latest
+    image: johncollier/codewind-che-sidecar:ownpvc
     volumes:
       - mountPath: "/projects"
         name: projects
