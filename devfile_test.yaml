@@ -7,11 +7,7 @@ projects:
     source:
       type: git
       location: 'https://github.com/rajivnathan/microproj.git'
-  - name: nodeTemplate
-    source:
-      type: git
-      location: 'https://github.com/microclimate-dev2ops/nodeExpressTemplate'
 components:
   - alias: theia-ide
     type: cheEditor
-    id: eclipse/che-theia/7.0.0-rc-3.0
+    id: eclipse/che-theia/7.3.1
