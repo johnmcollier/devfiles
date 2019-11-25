@@ -24,4 +24,4 @@ firstPublicationDate: "2019-05-30"
 latestUpdateDate: "2019-05-30"
 spec:
   extensions:
-    - https://raw.githubusercontent.com/johnmcollier/devfiles/master/theia/codewind-theia-0.6.0-201911201514.vsix
+    - https://raw.githubusercontent.com/johnmcollier/devfiles/master/theia/codewind-withfw-0.7.0.vsix
