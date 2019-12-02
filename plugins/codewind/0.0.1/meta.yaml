@@ -25,9 +25,6 @@ spec:
   containers:
   - name: codewind-che-sidecar
     image: johncollier/codewind-che-sidecar:latest
-    volumes:
-      - mountPath: "/projects"
-        name: projects
     ports:
       - exposedPort: 9090
   extensions:
