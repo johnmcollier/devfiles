@@ -19,4 +19,4 @@ components:
     id: eclipse/che-theia/latest
   - alias: eclipse-codewind
     type: chePlugin
-    id: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/0.0.1/meta.yaml
+    id: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/0.0.2/meta.yaml
