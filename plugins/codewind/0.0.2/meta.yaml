@@ -1,0 +1,37 @@
+################################################################################
+# Copyright (c) 2019 IBM Corporation and others.
+# All rights reserved. This program and the accompanying materials
+# are made available under the terms of the Eclipse Public License v2.0
+# which accompanies this distribution, and is available at
+# http://www.eclipse.org/legal/epl-v20.html
+#
+# Contributors:
+#     IBM Corporation - initial API and implementation
+################################################################################
+apiVersion: v2
+publisher: eclipse
+name: eclipse-codewind
+version: latest
+type: VS Code extension
+displayName: Codewind for Eclipse Che
+title: Codewind for Eclipse Che
+description: Enables containerized development and deployment in Che
+icon: https://raw.githubusercontent.com/eclipse/codewind-vscode/master/dev/res/img/codewind.png
+repository: https://github.com/eclipse/codewind-che-plugin
+category: Other
+firstPublicationDate: "2019-05-30"
+latestUpdateDate: "2019-12-02"
+spec:
+  containers:
+  - name: codewind-che-sidecar
+    image: johncollier/codewind-che-sidecar:latest
+    args:
+      - sh
+      - -c
+      - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
+    ports:
+      - exposedPort: 9090
+  extensions:
+  - http://download.eclipse.org/codewind/codewind-vscode/master/latest/codewind-theia.vsix
+
+  
