@@ -25,6 +25,10 @@ spec:
   containers:
   - name: codewind-che-sidecar
     image: johncollier/codewind-che-sidecar:latest
+    args:
+      - sh
+      - -c
+      - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
     ports:
       - exposedPort: 9090
   extensions:
