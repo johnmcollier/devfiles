@@ -22,5 +22,5 @@ components:
     id: https://raw.githubusercontent.com/eclipse/codewind-che-plugin/0.7.0/plugins/codewind/codewind-sidecar/0.7.0/meta.yaml
   - alias: codewind-theia
     type: chePlugin
-    id: https://raw.githubusercontent.com/eclipse/codewind-che-plugin/0.7.0/plugins/codewind/codewind-theia/0.7.0/meta.yaml
+    id: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-theia/0.7.0/meta.yaml
 
