@@ -12,14 +12,15 @@
 ---
 apiVersion: 1.0.0
 metadata:
-  name: codewind-che
+  generateName: codewind-
 components:
   - alias: theia-ide
     type: cheEditor
     id: eclipse/che-theia/latest
   - alias: codewind-sidecar
     type: chePlugin
-    reference: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-sidecar/0.0.1/meta.yaml
+    id: https://raw.githubusercontent.com/eclipse/codewind-che-plugin/0.7.0/plugins/codewind/codewind-sidecar/0.7.0/meta.yaml
   - alias: codewind-theia
     type: chePlugin
-    reference: https://raw.githubusercontent.com/eclipse/codewind-che-plugin/master/plugins/codewind/codewind-theia/latest/meta.yaml
+    id: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-theia/0.7.0/meta.yaml
+

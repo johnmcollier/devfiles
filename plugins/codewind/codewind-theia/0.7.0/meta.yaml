@@ -10,18 +10,18 @@
 ################################################################################
 
 apiVersion: v2
-publisher: IBM
-name: codewind-theia
-version: 0.0.1
+publisher: eclipse
+name: codewind-plugin
+version: 0.7.0
 type: VS Code extension
 displayName: Codewind VS Code Extension
 title: Codewind Extension for VS Code
 description: Codewind Extension for Theia
-icon: https://raw.githubusercontent.com/IBM/charts/master/logo/microclimate-logo.png
+icon: https://raw.githubusercontent.com/eclipse/codewind-vscode/master/dev/res/img/codewind.png
 repository: http://github.com/eclipse/codewind-vscode/
 category: Other
 firstPublicationDate: "2019-05-30"
-latestUpdateDate: "2019-05-30"
+latestUpdateDate: "2019-12-06"
 spec:
   extensions:
-    - http://download.eclipse.org/codewind/codewind-vscode/master/latest/codewind-theia.vsix
+    - http://johncollier-linuxdev1.fyre.ibm.com/codewind-theia.vsix

@@ -1,0 +1,25 @@
+apiVersion: 1.0.0
+metadata:
+  name: test-devfile
+components:
+  - type: dockerimage
+    image: websphere-liberty:19.0.0.3-webProfile7
+    alias: runtime
+    memoryLimit: 1024Mi
+commands:
+  -
+    name: build
+    actions:
+      -
+        type: exec
+        component: runtime
+        command: "gradle build"
+        workdir: ${CHE_PROJECTS_ROOT}/console-java-simple
+  -
+    name: run
+    actions:
+      -
+        type: exec
+        component: runtime
+        command: "gradle run"
+        workdir: ${CHE_PROJECTS_ROOT}/console-java-simple

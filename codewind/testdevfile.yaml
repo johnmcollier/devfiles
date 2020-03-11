@@ -19,7 +19,7 @@ components:
     id: eclipse/che-theia/latest
   - alias: codewind-sidecar
     type: chePlugin
-    reference: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-sidecar/0.0.1/meta.yaml
+    reference: https://raw.githubusercontent.com/eclipse/codewind-che-plugin/c6753802dd3c659abf6097502e4cbdda2bbd1803/plugins/codewind/codewind-sidecar/latest/meta.yaml
   - alias: codewind-theia
     type: chePlugin
-    reference: https://raw.githubusercontent.com/eclipse/codewind-che-plugin/master/plugins/codewind/codewind-theia/latest/meta.yaml
+    reference: https://raw.githubusercontent.com/eclipse/codewind-che-plugin/c6753802dd3c659abf6097502e4cbdda2bbd1803/plugins/codewind/codewind-theia/latest/meta.yaml
