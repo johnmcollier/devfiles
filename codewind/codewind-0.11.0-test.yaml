@@ -17,6 +17,9 @@ components:
   - alias: theia-ide
     type: cheEditor
     id: eclipse/che-theia/latest
+    env:
+      - name: INSECURE_KEYRING
+        value: "true"
     memoryLimit: 1024Mi
   - alias: codewind-theia
     type: chePlugin
