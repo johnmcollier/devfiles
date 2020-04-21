@@ -11,7 +11,7 @@
 
 apiVersion: v2
 publisher: eclipse
-name: codewind-theia
+name: codewind-vscode
 version: 0.11.0
 type: VS Code extension
 displayName: Codewind VS Code Extension
