@@ -21,6 +21,6 @@ components:
       - name: INSECURE_KEYRING
         value: "true"
     memoryLimit: 1024Mi
-  - alias: codewind
+  - alias: codewind-vscode
     type: chePlugin
-    reference: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-theia/0.11.0/meta.yaml
+    reference: https://raw.githubusercontent.com/johnmcollier/devfiles/master/plugins/codewind/codewind-vscode/0.11.0/meta.yaml
